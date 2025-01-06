@@ -30,7 +30,7 @@ const connection = mysql.createConnection({
   user: "september", // MySQL username
   password: "september", // MySQL password
   database: "september", // Database to use
-  // socketPath: "/Applications/MAMP/tmp/mysql/mysql.sock", // Uncomment if using MAMP
+  socketPath: "/Applications/MAMP/tmp/mysql/mysql.sock", // Uncomment if using MAMP
 });
 
 // Connect to the MySQL database
